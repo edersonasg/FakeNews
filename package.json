@@ -1,0 +1,23 @@
+{
+  "name": "fakenews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect -r dotenv/config index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1608.0",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv-safe": "^9.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
