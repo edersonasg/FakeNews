@@ -154,7 +154,7 @@ body {
 }
 
 .third {
-    margin-top: 20em;
+    margin-top: 33em;
 }
 
 .third,
@@ -163,14 +163,75 @@ body {
     position: relative;
 }
 
-.third::after {
+.third::before {
     content: "";
     position: absolute;
     inset: 0;
     background-image: url(/img/fundo2.jpeg);
     background-size: cover;
     background-position: center;
-    z-index: 1;
+    z-index: 0;
     opacity: 0.5;
     background-attachment: fixed;
+}
+
+.fold {
+    z-index: 20;
+    position: relative;
+}
+
+.iad {
+    border-right: 2px solid #620101;
+}
+
+.intArt h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1.5em;
+}
+
+.intArt p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: var(--bs-accordion-btn-focus-border-color);
+    outline: 0;
+    box-shadow: #9d0000 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white !important;
+    background-color: #620101 !important;
+    box-shadow: #9d0000 1px -1px 8px 0px, #9d0000 0px 2px 8px, #9d0000 0px 4px 8px !important;
+}
+
+.accordion-body {
+    background-color: #9a000070;
+}
+
+.lineFour {
+    width: 80%;
+    margin: auto !important;
+    padding-top: 3.5em;
+}
+
+.lineFour p {
+    color: black;
+    text-shadow: 2px 2px 0px white;
+}
+
+
+
+.footer img {
+    width: 200px;
+}
+
+.footer {
+    background-color: #620101;
+    height: 15vh;
 }
