@@ -201,7 +201,7 @@ body {
     z-index: 3;
     border-color: var(--bs-accordion-btn-focus-border-color);
     outline: 0;
-    box-shadow: #9d0000 !important;
+    box-shadow: #9d0000 1px -1px 8px 0px, #9d0000 0px 2px 8px, #9d0000 0px 4px 8px !important;
 }
 
 .accordion-button:not(.collapsed) {
